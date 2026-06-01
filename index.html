@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio d'Evan Lamaire, pâtissier passionné : créations, parcours, compétences et contact."
+    />
+    <title>Evan Lamaire | Portfolio Pâtissier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark">
+    <div class="bg-shapes" aria-hidden="true"></div>
+
+    <header class="header" id="top">
+      <nav class="nav container">
+        <a href="#hero" class="brand">Evan Lamaire</a>
+        <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#training">Formations</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#gallery">Créations</a></li>
+          <li><a href="#experience">Expériences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="hero">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Portfolio Pâtisserie</p>
+          <h1>Evan Lamaire</h1>
+          <h2>Pâtissier</h2>
+          <p class="typewriter" data-text="Transformer la technique en émotion, une création à la fois."></p>
+          <div class="hero-actions">
+            <a href="#gallery" class="btn btn-primary">Voir mes créations</a>
+            <a href="#contact" class="btn btn-outline">Me contacter</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <h3>Créativité & Précision</h3>
+          <p>
+            Un univers de desserts élégants, pensés pour allier esthétique, textures et équilibre des saveurs.
+          </p>
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <h2 class="section-title reveal">À propos</h2>
+        <p class="section-lead reveal">
+          Pâtissier passionné, Evan Lamaire développe des créations autour des entremets, des tartes, des viennoiseries et des desserts créatifs.
+          Son approche repose sur la précision technique, la régularité en laboratoire et une attention forte à l'esthétique finale.
+        </p>
+      </section>
+
+      <section class="section container" id="training">
+        <h2 class="section-title reveal">Formations</h2>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <h3>CAP Pâtisserie</h3>
+            <p class="muted">Établissement à préciser • Année à préciser</p>
+            <p>Maîtrise des bases professionnelles : pâtes, crèmes, cuisson, dressage et organisation du poste.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <h3>Stages professionnels</h3>
+            <p class="muted">Maisons / laboratoires à préciser</p>
+            <p>Immersion terrain sur la production quotidienne, la cadence et les standards qualité.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <h3>Formations complémentaires</h3>
+            <p class="muted">Techniques avancées à préciser</p>
+            <p>Perfectionnement en entremets modernes, montage soigné et finitions premium.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <h3>Ateliers & certifications</h3>
+            <p class="muted">Événements à préciser</p>
+            <p>Mise à jour continue sur les tendances, les textures et les présentations contemporaines.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="skills">
+        <h2 class="section-title reveal">Compétences</h2>
+        <div class="grid cards-3">
+          <div class="card reveal">Entremets</div>
+          <div class="card reveal">Tartes</div>
+          <div class="card reveal">Viennoiseries</div>
+          <div class="card reveal">Gâteaux personnalisés</div>
+          <div class="card reveal">Travail du chocolat</div>
+          <div class="card reveal">Décoration</div>
+          <div class="card reveal">Hygiène alimentaire</div>
+          <div class="card reveal">Organisation en laboratoire</div>
+          <div class="card reveal">Dressage</div>
+        </div>
+      </section>
+
+      <section class="section container" id="gallery">
+        <h2 class="section-title reveal">Galerie des créations</h2>
+        <div class="filters reveal" role="tablist" aria-label="Filtres galerie">
+          <button class="filter-btn active" data-filter="all">Tous</button>
+          <button class="filter-btn" data-filter="entremets">Entremets</button>
+          <button class="filter-btn" data-filter="tartes">Tartes</button>
+          <button class="filter-btn" data-filter="viennoiseries">Viennoiseries</button>
+          <button class="filter-btn" data-filter="gateaux">Gâteaux</button>
+          <button class="filter-btn" data-filter="chocolat">Chocolat</button>
+        </div>
+        <div class="gallery-grid">
+          <article class="gallery-item reveal" data-category="entremets">
+            <img src="https://placehold.co/640x480/f5efe4/2d2118?text=Entremets+Signature" alt="Entremets signature placeholder" />
+            <div>
+              <h3>Entremets Signature</h3>
+              <p class="muted">Entremets</p>
+              <p>Mousse légère, insert fruité et glaçage miroir net.</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal" data-category="tartes">
+            <img src="https://placehold.co/640x480/f8f4ea/2d2118?text=Tarte+Fine" alt="Tarte fine placeholder" />
+            <div>
+              <h3>Tarte Fine</h3>
+              <p class="muted">Tartes</p>
+              <p>Pâte croustillante, crème équilibrée et finition de saison.</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal" data-category="viennoiseries">
+            <img src="https://placehold.co/640x480/efe4d2/2d2118?text=Viennoiserie" alt="Viennoiserie placeholder" />
+            <div>
+              <h3>Viennoiserie Feuilletée</h3>
+              <p class="muted">Viennoiseries</p>
+              <p>Tourage régulier et cuisson dorée pour une texture aérienne.</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal" data-category="gateaux">
+            <img src="https://placehold.co/640x480/f3eadb/2d2118?text=Gateau+Personnalise" alt="Gâteau personnalisé placeholder" />
+            <div>
+              <h3>Gâteau Personnalisé</h3>
+              <p class="muted">Gâteaux</p>
+              <p>Création sur mesure selon thème, événement et goûts.</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal" data-category="chocolat">
+            <img src="https://placehold.co/640x480/e9dbc4/2d2118?text=Travail+Chocolat" alt="Travail du chocolat placeholder" />
+            <div>
+              <h3>Pièce Chocolat</h3>
+              <p class="muted">Chocolat</p>
+              <p>Tempérage précis, montage propre et décor raffiné.</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal" data-category="entremets">
+            <img src="https://placehold.co/640x480/f9f5ed/2d2118?text=Entremets+Fruite" alt="Entremets fruité placeholder" />
+            <div>
+              <h3>Entremets Fruité</h3>
+              <p class="muted">Entremets</p>
+              <p>Jeu de textures entre biscuit moelleux, mousse et croustillant.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="experience">
+        <h2 class="section-title reveal">Expériences</h2>
+        <div class="grid cards-2">
+          <article class="panel reveal">
+            <h3>Apprentissages</h3>
+            <p>Acquisition des réflexes de production et des standards de qualité en pâtisserie.</p>
+          </article>
+          <article class="panel reveal">
+            <h3>Stages</h3>
+            <p>Participation aux services et préparation de gammes sucrées en contexte réel.</p>
+          </article>
+          <article class="panel reveal">
+            <h3>Expériences professionnelles</h3>
+            <p>Contribution à la régularité de production et au soin visuel des créations.</p>
+          </article>
+          <article class="panel reveal">
+            <h3>Projets personnels</h3>
+            <p>Développement de recettes signatures et tests de dressages contemporains.</p>
+          </article>
+          <article class="panel reveal">
+            <h3>Commandes réalisées</h3>
+            <p>Réalisation de desserts sur mesure pour événements privés et professionnels.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="signature">
+        <h2 class="section-title reveal">Création Signature</h2>
+        <article class="signature reveal">
+          <img src="https://placehold.co/900x520/eadac1/2d2118?text=Creation+Signature" alt="Création signature placeholder" />
+          <div>
+            <h3>Éclat Noisette & Vanille</h3>
+            <p>
+              Un entremets premium associant mousse vanille, praliné noisette, biscuit moelleux et glaçage brillant.
+            </p>
+            <p><strong>Techniques :</strong> insertion, glaçage miroir, montage cerclé, décor chocolat.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section container" id="business-card">
+        <h2 class="section-title reveal">Carte de visite interactive</h2>
+        <div class="flip-card reveal" tabindex="0" aria-label="Carte de visite Evan Lamaire">
+          <div class="flip-card-inner">
+            <div class="flip-side front">
+              <h3>Evan Lamaire</h3>
+              <p>Pâtissier</p>
+              <p class="muted">Cliquez ou survolez</p>
+            </div>
+            <div class="flip-side back">
+              <p><strong>Email :</strong> evan.lamaire@email.com</p>
+              <p><strong>Téléphone :</strong> +33 6 00 00 00 00</p>
+              <p><strong>Réseaux :</strong> Instagram • LinkedIn</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="cv">
+        <h2 class="section-title reveal">CV</h2>
+        <p class="section-lead reveal">Téléchargez le CV d'Evan Lamaire (fichier à remplacer).</p>
+        <a class="btn btn-primary reveal" href="#" aria-disabled="true">Télécharger le CV (PDF)</a>
+      </section>
+
+      <section class="section container" id="contact">
+        <h2 class="section-title reveal">Contact</h2>
+        <div class="contact-wrap">
+          <form class="contact-form reveal" action="#" method="post">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre@email.com" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+
+          <aside class="contact-info reveal">
+            <p><strong>Email :</strong> <a href="mailto:evan.lamaire@email.com">evan.lamaire@email.com</a></p>
+            <p><strong>Téléphone :</strong> <a href="tel:+33600000000">+33 6 00 00 00 00</a></p>
+            <p><strong>Instagram :</strong> <a href="#">@evanlamaire</a></p>
+            <p><strong>LinkedIn :</strong> <a href="#">linkedin.com/in/evanlamaire</a></p>
+            <div class="qr-slot">
+              <img src="https://placehold.co/220x220/f7f2e8/2d2118?text=QR+Code" alt="QR code portfolio ou CV placeholder" />
+              <p class="muted">Emplacement QR code vers portfolio/CV</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <button id="to-top" class="to-top" aria-label="Retour en haut">↑</button>
+
+    <footer class="footer">
+      <p>© 2026 Evan Lamaire — Portfolio pâtisserie</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
